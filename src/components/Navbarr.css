@@ -1,0 +1,81 @@
+/* Navbar Container */
+.navbar {
+    background-color: #fff !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 0.8rem 1.5rem;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* SousouCloset */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 24px;
+    color: #b48fcb;
+    transition: color 0.3s ease;
+}
+.navbar-brand:hover {
+    color: #222;
+}
+
+/* Nav Links */
+.nav-link {
+    color: #444 !important;
+    font-size: 16px;
+    margin-right: 16px;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #b48fcb !important;
+}
+
+/* Dropdown */
+.navbar .dropdown-menu {
+    background-color: #fff;
+    border-radius: 0;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+.dropdown-item {
+    color: #444;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dropdown-item:hover {
+    background-color: #f3e8ff;
+    color: #6a1b9a;
+}
+
+/* Search Bar */
+form.d-flex {
+    display: flex;
+    align-items: center;
+}
+
+.form-control {
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    padding: 8px  16px;
+    width: 200px;
+}
+
+.form-control:focus {
+    border-color: #b48fcb;
+    box-shadow: 0 0 0 0.32px rgba(180, 143, 203, 0.25);
+}
+
+/* Search Button */
+.btn-outline-success {
+    border-color: #b48fcb;
+    color: #b48fcb;
+    border-radius: 20px;
+    padding: 8px  16px;
+    margin-left: 8px ;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-success:hover {
+    background-color: #b48fcb;
+    color: white;
+    border-color: #b48fcb;
+}
