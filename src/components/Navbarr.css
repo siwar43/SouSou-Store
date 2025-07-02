@@ -79,3 +79,9 @@ form.d-flex {
     color: white;
     border-color: #b48fcb;
 }
+
+.navi{
+    position: sticky !important;
+    top: 0px !important;
+    z-index: 150;
+}

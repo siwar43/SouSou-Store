@@ -5,12 +5,17 @@
 }
 
 /* Title section */
-.dresses h2, .accessories h2 {
+.dresses h2,.accessories h2 {
     text-align: center;
     margin-bottom: 30px;
-    font-size: 32px;      
+    font-size: 32px;
     color: #333;
     font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.dresses h2:hover, .accessories h2:hover {
+    color: #b48fcb !important;
 }
 
 /* Container */
